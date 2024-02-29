@@ -1,0 +1,9 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "123"
+      schema: "pipeline"
+      database: "123"
+      user: "123"

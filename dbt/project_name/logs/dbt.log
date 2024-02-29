@@ -1,0 +1,94 @@
+[0m15:47:51.953581 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f373569b640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3733936ce0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3733935900>]}
+
+
+============================== 15:47:51.956065 | 63495ee1-cbab-4044-b6bd-f44e9374e298 ==============================
+[0m15:47:51.956065 [info ] [MainThread]: Running with dbt=1.7.8
+[0m15:47:51.956577 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': './dbt/project_name', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'dbt/project_name/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt compile --project-dir ./dbt/project_name --profiles-dir ./dbt/project_name', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:47:51.960945 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+[0m15:47:51.961524 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "default", target "dev" invalid: Runtime Error
+    Could not find adapter type snowflake!
+[0m15:47:51.962264 [debug] [MainThread]: Resource report: {"command_name": "compile", "command_wall_clock_time": 0.05752011, "process_user_time": 2.138986, "process_kernel_time": 0.059971, "process_mem_max_rss": "89772", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m15:47:51.962825 [debug] [MainThread]: Command `dbt compile` failed at 15:47:51.962710 after 0.06 seconds
+[0m15:47:51.963189 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f373569b640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3733937c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3733937850>]}
+[0m15:47:51.963631 [debug] [MainThread]: Flushing usage events
+[0m15:48:21.566394 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7348e46c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73470d3ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73470d0bb0>]}
+
+
+============================== 15:48:21.568856 | 69bfcc82-718b-4343-99b3-7a9ef3e87a50 ==============================
+[0m15:48:21.568856 [info ] [MainThread]: Running with dbt=1.7.8
+[0m15:48:21.569435 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': './dbt/project_name', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'dbt/project_name/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt compile --project-dir ./dbt/project_name --profiles-dir ./dbt/project_name', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:48:21.755095 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "default", target "dev" invalid: 'database' is a required property
+[0m15:48:21.756601 [debug] [MainThread]: Resource report: {"command_name": "compile", "command_wall_clock_time": 0.23721318, "process_user_time": 2.399892, "process_kernel_time": 0.090372, "process_mem_max_rss": "105704", "process_in_blocks": "8", "command_success": false, "process_out_blocks": "0"}
+[0m15:48:21.757609 [debug] [MainThread]: Command `dbt compile` failed at 15:48:21.757413 after 0.24 seconds
+[0m15:48:21.758098 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7348e46c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7347b1e6e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73470d0bb0>]}
+[0m15:48:21.758823 [debug] [MainThread]: Flushing usage events
+[0m15:48:39.413495 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd1d5b2770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd1b83f9a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd1b83c8e0>]}
+
+
+============================== 15:48:39.417597 | ac3f2473-8a73-4365-9847-bfff8094dce8 ==============================
+[0m15:48:39.417597 [info ] [MainThread]: Running with dbt=1.7.8
+[0m15:48:39.418723 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': './dbt/project_name', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'dbt/project_name/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt compile --project-dir ./dbt/project_name --profiles-dir ./dbt/project_name', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:48:39.716835 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "default", target "dev" invalid: 'user' is a required property
+[0m15:48:39.718099 [debug] [MainThread]: Resource report: {"command_name": "compile", "command_wall_clock_time": 0.3728724, "process_user_time": 3.137759, "process_kernel_time": 0.129907, "process_mem_max_rss": "105352", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m15:48:39.718811 [debug] [MainThread]: Command `dbt compile` failed at 15:48:39.718652 after 0.37 seconds
+[0m15:48:39.719351 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd1d5b2770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd1c296830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd1b83c8e0>]}
+[0m15:48:39.720552 [debug] [MainThread]: Flushing usage events
+[0m15:48:52.959200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff385a56d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff383ce08e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff383ce3fa0>]}
+
+
+============================== 15:48:52.961662 | 61ebdc2a-9b17-48fb-afdc-4e3bb22ec787 ==============================
+[0m15:48:52.961662 [info ] [MainThread]: Running with dbt=1.7.8
+[0m15:48:52.962232 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': './dbt/project_name', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'dbt/project_name/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt compile --project-dir ./dbt/project_name --profiles-dir ./dbt/project_name', 'send_anonymous_usage_stats': 'True'}
+[0m15:48:53.364325 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path []: Additional properties are not allowed ('log-paths' was unexpected)
+
+Error encountered in dbt/project_name/dbt_project.yml
+[0m15:48:53.365419 [debug] [MainThread]: Resource report: {"command_name": "compile", "command_wall_clock_time": 0.4710241, "process_user_time": 3.403488, "process_kernel_time": 0.080082, "process_mem_max_rss": "107064", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m15:48:53.366053 [debug] [MainThread]: Command `dbt compile` failed at 15:48:53.365904 after 0.47 seconds
+[0m15:48:53.366467 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff385a56d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff382d5c070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff382d5f5b0>]}
+[0m15:48:53.366917 [debug] [MainThread]: Flushing usage events
+[0m15:49:06.182121 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7f92c6c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7f75539d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7f7551d50>]}
+
+
+============================== 15:49:06.190774 | e840b9fc-daee-40b4-b94c-5a718cbe098c ==============================
+[0m15:49:06.190774 [info ] [MainThread]: Running with dbt=1.7.8
+[0m15:49:06.191724 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': './dbt/project_name', 'version_check': 'True', 'debug': 'False', 'log_path': 'dbt/project_name/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt compile --project-dir ./dbt/project_name --profiles-dir ./dbt/project_name', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:49:06.617601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e840b9fc-daee-40b4-b94c-5a718cbe098c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7f8c8bca0>]}
+[0m15:49:06.765444 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e840b9fc-daee-40b4-b94c-5a718cbe098c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7f758b0a0>]}
+[0m15:49:06.768154 [info ] [MainThread]: Registered adapter: snowflake=1.7.2
+[0m15:49:06.780116 [debug] [MainThread]: checksum: 67f0013ca5f0bd43af9a0873dd50792fde83ef69de63b71cacd0b4ac656c52e5, vars: {}, profile: , target: , version: 1.7.8
+[0m15:49:06.780933 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m15:49:06.781770 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'e840b9fc-daee-40b4-b94c-5a718cbe098c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7f63123e0>]}
+[0m15:49:08.432883 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e840b9fc-daee-40b4-b94c-5a718cbe098c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7f4fc00d0>]}
+[0m15:49:08.448742 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e840b9fc-daee-40b4-b94c-5a718cbe098c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7f666ab60>]}
+[0m15:49:08.449471 [info ] [MainThread]: Found 3 models, 3 sources, 0 exposures, 0 metrics, 430 macros, 0 groups, 0 semantic models
+[0m15:49:08.449949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e840b9fc-daee-40b4-b94c-5a718cbe098c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7f5045ab0>]}
+[0m15:49:08.451823 [info ] [MainThread]: 
+[0m15:49:08.453854 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m15:49:08.459242 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_123_pipeline'
+[0m15:49:08.483769 [debug] [ThreadPool]: Using snowflake connection "list_123_pipeline"
+[0m15:49:08.485604 [debug] [ThreadPool]: On list_123_pipeline: /* {"app": "dbt", "dbt_version": "1.7.8", "profile_name": "default", "target_name": "dev", "connection_name": "list_123_pipeline"} */
+show terse objects in 123.pipeline limit 10000
+[0m15:49:08.486731 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:49:08.498721 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: /* {"app": "dbt", "dbt_version": "1.7.8", "profile_name": "default", "target_name": "dev", "connection_name": "list_123_pipeline"} */
+show terse objects in 123.pipeline limit 10000
+[0m15:49:08.499582 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m15:49:08.500406 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro list_relations_without_caching
+[0m15:49:08.501039 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m15:49:08.501547 [debug] [ThreadPool]: On list_123_pipeline: No close available on handle
+[0m15:49:08.503769 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:49:08.505105 [debug] [MainThread]: Connection 'list_123_pipeline' was properly closed.
+[0m15:49:08.506462 [error] [MainThread]: Encountered an error:
+Database Error
+  251006: Password is empty
+[0m15:49:08.509121 [debug] [MainThread]: Resource report: {"command_name": "compile", "command_wall_clock_time": 2.4019928, "process_user_time": 5.309953, "process_kernel_time": 0.139998, "process_mem_max_rss": "119108", "process_in_blocks": "136", "process_out_blocks": "1760", "command_success": false}
+[0m15:49:08.510737 [debug] [MainThread]: Command `dbt compile` failed at 15:49:08.510572 after 2.40 seconds
+[0m15:49:08.511188 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7f92c6c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7f4fc33d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7f4e0f430>]}
+[0m15:49:08.511640 [debug] [MainThread]: Flushing usage events

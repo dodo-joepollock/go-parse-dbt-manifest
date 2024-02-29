@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: source_db
+    database: raw
+    schema: pub
+    tables:
+      - name: orders
+      - name: customers
+      - name: products

@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: staging_products
+    columns:
+      - name: product_id
+      - name: product_name
+      - name: product_description
+      - name: product_category
+      - name: product_price
+      - name: product_created_at

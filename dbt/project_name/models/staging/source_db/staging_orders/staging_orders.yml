@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: staging_orders
+    columns:
+      - name: order_id
+      - name: customer_name
+      - name: order_date
+      - name: order_total
+      - name: order_status
+      - name: order_created_at
+      

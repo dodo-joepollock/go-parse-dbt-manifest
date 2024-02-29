@@ -1,0 +1,11 @@
+name: project
+
+config-version: 2
+version: '0.1'
+
+profile: 'default'
+
+model-paths: ["./models"]
+
+target-path: "target"
+log-path: "logs"
